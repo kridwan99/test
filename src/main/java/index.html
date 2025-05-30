@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DELI-cious Sandwich Shop POS - Project Presentation</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfdfd;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #2ecc71;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    main {
+      max-width: 960px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    p, li {
+      font-size: 1.1em;
+      line-height: 1.7;
+    }
+
+    ul {
+      margin-top: 10px;
+    }
+
+    .flowchart {
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    .flowchart img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      background-color: #ecf0f1;
+      color: #555;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DELI-cious Sandwich Shop POS</h1>
+    <p>Capstone Project 2 | Java CLI Application</p>
+  </header>
+
+  <main>
+    <h2>Overview</h2>
+    <p>
+      DELI-cious is a command-line point-of-sale system designed for sandwich shops. 
+      It provides an interactive menu for building custom sandwiches, choosing drinks, 
+      chips, and finalizing orders with receipt generation and file saving.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Home Menu: Start Order, View Receipts, Exit</li>
+      <li>Build custom sandwiches with meats, cheese, sauces, toppings</li>
+      <li>Select drink size & flavor</li>
+      <li>Select chip type</li>
+      <li>Signature sandwich options (BLT or Philly)</li>
+      <li>Receipts displayed & saved to file</li>
+      <li>Full object-oriented Java architecture with classes, interfaces, and abstraction</li>
+    </ul>
+
+    <h2>Flowchart</h2>
+    <div class="flowchart">
+      <img src="Mermaid Chart - Create complex, visual diagrams with text. A smarter way of creating diagrams.-2025-05-29-003359.png" alt="Application Flowchart" />
+    </div>
+
+    <h2>Code Highlights</h2>
+    <p>
+      The application uses principles of Object-Oriented Programming:
+    </p>
+    <ul>
+      <li>Encapsulation: Clean separation of UI and business logic</li>
+      <li>Interfaces: SandwichItem, Drink, Chips implement OrderItem</li>
+      <li>Abstraction: Abstract classes for menu management</li>
+      <li>Lambdas: Used in receipt formatting and filtering</li>
+    </ul>
+
+    <h2>GitHub Repository</h2>
+    <p>
+      <a href="https://github.com/kridwan99/DELI-cious" target="_blank">
+        View Full Project on GitHub
+      </a>
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 DELI-cious POS System | Java Focus Academy - Capstone 2
+  </footer>
+</body>
+</html>
